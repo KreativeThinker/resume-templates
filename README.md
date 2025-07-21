@@ -1,15 +1,34 @@
 # Resume Template
 
-How it looks:
+<p align="center">
+  <img src="public/resume-sample-screenshot.png" alt="Resume Sample Screenshot" width="600"/>
+</p>
 
-> Insert files here
+<p align="center">
+  <img src="public/cover-letter-sample-screenshot.png" alt="Cover Letter Sample Screenshot" width="600"/>
+</p>
+
+---
 
 ### How to use
 
-Download the template files, edit, zip and upload to [overleaf](https://www.overleaf.com).
+1. **Download** the template files.
+2. **Zip and upload** them to [Overleaf](https://www.overleaf.com).
+3. **Edit** the content in `main.tex` and `coverletter.tex` as needed.
 
-To customize colors and theme: Edit `styles.cls` and modify the color properties
+To customize the appearance:
 
-Feel free to move sections up and Down. There are some more commands defined in the `styles.cls` file which I have not used by default.
+- Modify `styles.cls` to change colors and formatting.
+- Move or edit sections freely in the `.tex` files.
+- Some extra commands are available in `styles.cls` but not used by default.
+
+---
+
+### PDF Samples
+
+- [📄 Resume Sample (PDF)](public/resume-sample.pdf)
+- [📄 Cover Letter Sample (PDF)](public/cover-letter-sample.pdf)
+
+---
 
 All the best for the job hunt!
