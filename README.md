@@ -1,11 +1,14 @@
 # Resume Template
 
-<p align="center">
-  <img src="public/resume-sample-screenshot.png" alt="Resume Sample Screenshot" width="600"/>
-</p>
+### Resume
 
 <p align="center">
-  <img src="public/cover-letter-sample-screenshot.png" alt="Cover Letter Sample Screenshot" width="600"/>
+  <img src="public/resume%20sample%20screenshot.png" alt="Resume Sample Screenshot" width="600"/>
+</p>
+
+### Cover Letter
+<p align="center">
+  <img src="public/cover-letter%20sample%20screenshot.png" alt="Cover Letter Sample Screenshot" width="600"/>
 </p>
 
 ---
