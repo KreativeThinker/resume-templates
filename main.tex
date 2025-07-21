@@ -1,0 +1,106 @@
+\documentclass[10pt, a4paper]{styles}
+\geometry{left=1.2cm,right=1.2cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.cm,bottom=1.2cm}
+\usepackage[default]{lato}
+\begin{document}
+
+\name{Name} 
+\tagline{Tag 1 $\bullet$ Tag 2 $\bullet$ Tag 3}%
+\personalinfo{%
+    \mailaddress{\href{mailto:email@email.com}{email@email.com}} 
+    \linkedin{\href{https://linkedin.com/in/username}{linkedin.com/in/username}}\\\smallskip
+    \phone{+91 XXXXX XXXXX} 
+    \github{\href{https://github.com/username}{github.com/username}} 
+    \website{\href{https://website.com}{website.com}}
+    \location{location}% 
+}
+\makecvheader
+
+% -------------------------------------------------------------------------------------------------- %
+
+% Professional Experience - Reverse chronological and company/project specific information of what you did.
+\cvsection{Experience}
+    \company
+        {Position}
+        {Company}
+        {Location}
+        {From -- To}
+        \begin{itemize}
+          \item What you developed and achieved in this role.
+          \item Use action verbs and quantify your achievements where possible.
+          \item Follow the STAR method (Situation, Task, Action, Result) to structure your bullet points.
+        \end{itemize}
+
+    \company
+        {Position}
+        {Company}
+        {Location}
+        {From -- To}
+        \begin{itemize}
+          \item What you developed and achieved in this role.
+          \item Use action verbs and quantify your achievements where possible.
+          \item Follow the STAR method (Situation, Task, Action, Result) to structure your bullet points.
+        \end{itemize}
+
+
+% -------------------------------------------------------------------------------------------------- %
+
+\cvsection{Projects}
+    \project
+        {Title}
+        {https://github.com/username/repo}{username/project}
+        {Tech Stack Used, e.g., Python, FastAPI, React, Docker, etc.}
+        \begin{itemize}
+            \item Developed a full-stack application that does something interesting.
+            \item Implemented features such as X, Y, and Z, resulting in A, B, and C.
+            \item Used technologies like X, Y, and Z to achieve the project goals.
+        \end{itemize}
+    \dividergray
+    
+    \project
+        {Title}
+        {https://github.com/username/project}{username/project}
+        {Python, MediaPipe, OpenCV, SVM, NumPy, System Automation, HCI, Parallel processing}
+        \begin{itemize}
+            \item Developed a full-stack application that does something interesting.
+            \item Implemented features such as X, Y, and Z, resulting in A, B, and C.
+            \item Used technologies like X, Y, and Z to achieve the project goals.
+        \end{itemize}
+    
+
+% -------------------------------------------------------------------------------------------------- %
+\cvsection{Skills}
+\createskills {
+    \createskill{Languages}{Python, TypeScript, JavaScript, C, C++},
+    \createskill{Backend}{FastAPI, Django, DRF, PostgreSQL, Supabase, Tortoise ORM, Prisma ORM, SQL},
+    \createskill{Frontend}{NextJS, React, React Native, Sveltekit, AstroJS, TailwindCSS, ShadCN, HTML, CSS},
+    \createskill{DevOps/Tools}{Docker, Docker Compose, Portainer, Railway, GitHub Actions, Typer, Bash, Git, GitHub, CI/CD, Linux},
+    \createskill{AI/ML/CV}{MediaPipe, OpenCV, SVM, LangChain, ChromaDB, RAG pipelines, Prompt Engineering},
+    \createskill{Concepts}{Microservice Architecture, Operating Systems, REST/RESTful APIs, OOPS, Parallel Processing}
+}
+\smallskip
+\vspace{-20pt}
+% -------------------------------------------------------------------------------------------------- %
+
+\cvsection{Awards}
+    % Follow Reverse chronological order, with the most recent achievements first.
+    \cvachievement{\faCode}{ {\bfseries Position -- Event} \hfill { \color{accent} \faCalendar}  \hspace{0.5em}{Month Year}}
+    {About what you did at the event. What you built/achieved. Add link like below if it was a hackathon\par
+    \href{https://github.com/username/project}{\githubsymbol \hspace{0.5em}username/project}}
+    \par
+    
+      
+    \dividergray
+    
+    \cvachievement{\faTrophy}{ {\bfseries Position -- Event} \hfill { \color{accent} \faCalendar}  \hspace{0.5em}{Month Year}}
+    {Or just add your description here if there is no project or add a link to some proof like a certificate}\par
+
+% -------------------------------------------------------------------------------------------------- %
+
+\cvsection{Education}
+    \education
+        {Bachelor of Technology, Computer Science}
+        {Vellore Institue of Technology}
+        {Chennai, India}
+        {2023 -- 2027}
+
+\end{document}
